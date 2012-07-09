@@ -1,0 +1,16 @@
+{
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (dark2).tmTheme",
+	"font_face": "PragmataPro",
+	"font_size": 16,
+	"highlight_active_indent_guide": true,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"scroll_past_end": true,
+	"theme": "Soda Dark.sublime-theme",
+	"wide_caret": true,
+	"wrap_width": 0
+}

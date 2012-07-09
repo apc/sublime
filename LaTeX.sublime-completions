@@ -1,0 +1,8 @@
+{
+        "scope": "text.tex.latex",
+
+        "completions":
+        [
+                { "trigger": "sc", "contents": "\\textsc{$1}$0"}
+        ]
+}

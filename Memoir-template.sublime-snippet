@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+\documentclass[11pt,article,oneside]{memoir}
+\input{vc}
+\usepackage{apc-basic}
+\usepackage{apc-mmr}
+\bibliography{apcmaster}
+
+
+\chapterstyle{article-1} 
+\pagestyle{apcgit}
+
+\title{${1}}
+\author{Alejandro P\'erez Carballo}
+\myaffiliation{University of Southern California}
+\myemail{aperezca@usc.edu}
+\version{${2:0.1}}
+\gitstamp
+
+
+
+\published{Working draft. Please do not cite or circulate. Comments very welcome.}
+\begin{document}
+	\maketitle
+	
+\noindent
+${3}
+
+\printbibliography
+\end{document}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>doc</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

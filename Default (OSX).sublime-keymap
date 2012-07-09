@@ -1,0 +1,21 @@
+[
+	// Wrapping commands: addenda to the LaTeXTools Package commands
+
+	{ "keys": ["alt+shift+w","k"],  
+			"context":  [
+				{"key": "selector", "operator": "equal", "operand": "text.tex.latex"}],
+			"command": "insert_snippet", "args": {"name":"Packages/User/Text smallcaps.sublime-snippet"}},		
+	{ "keys": ["alt+shift+w","i"],  
+			"context":  [
+				{"key": "selector", "operator": "equal", "operand": "text.tex.latex"}],
+			"command": "insert_snippet", "args": {"name":"Packages/User/Text emphasize.sublime-snippet"}},				
+{ "keys": ["alt+shift+w","b"],  
+			"context":  [
+				{"key": "selector", "operator": "equal", "operand": "text.tex.latex"}],
+			"command": "insert_snippet", "args": {"name":"Packages/User/Text boldface.sublime-snippet"}},							
+
+	// Command to reveal current file in Finder: 
+
+	{ "keys": ["ctrl+shift+alt+super+f"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} }
+
+]

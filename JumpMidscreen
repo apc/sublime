@@ -1,0 +1,4 @@
+v = view.visible_region()
+a = view.rowcol(v.begin())[0]
+b = view.rowcol(v.end())[0]
+middle = (b + a)/2
